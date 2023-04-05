@@ -6,7 +6,7 @@ const urlEncodedParser = bodyParser.urlencoded({extended: false});
 const jsonParser = express.json();
 const fs = require('fs');
 const { response } = require('express');
-const fileName = 'db.json'
+const fileName = './db.json'
 
 
 let rawData = fs.readFileSync(fileName)
