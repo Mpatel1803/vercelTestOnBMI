@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "@vercel/node": "^2.10.2"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
